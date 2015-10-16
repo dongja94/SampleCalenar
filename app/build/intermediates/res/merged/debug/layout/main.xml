@@ -12,8 +12,8 @@
 
     <GridView
         android:id="@+id/gridView1"
-        android:layout_width="320dp"
-        android:layout_height="320dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:numColumns="7" android:stretchMode="columnWidth" android:layout_weight="1">
     </GridView>
 
@@ -36,4 +36,4 @@
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/C:/Android/Library/android-education-project/SampleCalenar1/app/src/main/res/layout/main.xml -->
+</LinearLayout><!-- From: file:/C:/Work/workspace2-8/SampleCalenar/app/src/main/res/layout/main.xml -->

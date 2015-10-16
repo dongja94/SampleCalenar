@@ -1,14 +1,14 @@
 package org.tacademy.basic.calendar;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-
 import android.content.Context;
 import android.graphics.Color;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.Calendar;
 
 public class CalendarItemView extends LinearLayout {
 
@@ -60,7 +60,7 @@ public class CalendarItemView extends LinearLayout {
 		ArrayList items = item.items;
 		int size = items.size();
 		StringBuilder sb = new StringBuilder();
-		sb.append(size + "°³");
+		sb.append(size + "ê°œ");
 		contentView.setText(sb.toString());
 		
 	}
